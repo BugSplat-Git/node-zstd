@@ -8,7 +8,7 @@
         "src/common"
       ],
       "dependencies": [
-        "<(module_root_dir)/deps/zstd.gyp:compressor"
+        "<(module_root_dir)/deps/zstd.gyp:compress"
       ],
       "sources": [
         "src/common/stream_coder.cc",
@@ -28,7 +28,7 @@
         ],
         [
           "OS=='linux'", {
-            "cflags_cc": [ "-std=c++11" ]
+            "cflags_cc": [ "-std=c++17" ]
           }
         ]
       ]
@@ -41,7 +41,7 @@
         "src/common"
       ],
       "dependencies": [
-        "<(module_root_dir)/deps/zstd.gyp:decompressor"
+        "<(module_root_dir)/deps/zstd.gyp:decompress"
       ],
       "sources": [
         "src/common/stream_coder.cc",
@@ -61,7 +61,7 @@
         ],
         [
           "OS=='linux'", {
-            "cflags_cc": [ "-std=c++11" ]
+            "cflags_cc": [ "-std=c++17" ]
           }
         ]
       ]
