@@ -11,6 +11,12 @@
     "rebuild": "node-gyp -j 16 rebuild",
     "clean": "node-gyp clean"
   },
+  "files": [
+    "deps/**/*",
+    "src/**/*",
+    "binding.gyp",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BugSplat-Git/node-zstd.git"
