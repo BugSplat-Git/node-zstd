@@ -1,4 +1,4 @@
-node-zstd [![version](https://img.shields.io/npm/v/node-zstd.svg)](https://www.npmjs.com/package/node-zstd) [![ZSTD/v1.3.4](https://img.shields.io/badge/ZSTD-v1.3.4-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.3.4)
+node-zstd [![version](https://img.shields.io/npm/v/node-zstd.svg)](https://www.npmjs.com/package/node-zstd) [![ZSTD/v1.5.5](https://img.shields.io/badge/ZSTD-v1.5.5-green.svg)](https://github.com/facebook/zstd/releases/tag/v1.5.5)
 =====
 
 [![Build Status][1]][2]
