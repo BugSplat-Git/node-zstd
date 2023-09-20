@@ -1,5 +1,5 @@
 {
-  "name": "node-zstd",
+  "name": "@bugsplat/node-zstd",
   "version": "2.0.1",
   "description": "Zstd wrapper for Nodejs",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zwb-ict/node-zstd.git"
+    "url": "git+https://github.com/BugSplat-Git/node-zstd.git"
   },
   "keywords": [
     "zstd",
@@ -26,13 +26,18 @@
       "name": "Tyler Stiene",
       "email": "tystiene@gmail.com",
       "url": "https://github.com/Stieneee"
+    },
+    {
+      "name": "Bobby Galli",
+      "email": "bobby@bugsplat.com",
+      "url": "https://github.com/bobbyg603"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zwb-ict/node-zstd/issues"
+    "url": "https://github.com/BugSplat-Git/node-zstd/issues"
   },
-  "homepage": "https://github.com/zwb-ict/node-zstd#readme",
+  "homepage": "https://github.com/BugSplat-Git/node-zstd#readme",
   "dependencies": {
     "bindings": "^1.5.0",
     "nan": "^2.18.0",
